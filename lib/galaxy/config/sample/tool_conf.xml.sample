@@ -23,6 +23,11 @@
     <tool file="genomespace/genomespace_importer.xml" />
     <tool file="genomespace/genomespace_push.xml" />
   </section>
+  <section id="plots" name="Graph/Display Data">
+    <tool file="plotting/boxplot.xml" hidden="true" />
+    <tool file="maf/vcf_to_maf_customtrack.xml" />
+    <tool file="ggplot2/ggplot_all.xml" />
+  </section>
   <section id="send" name="Send Data">
     <tool file="cloud/send.xml" />
     <tool file="genomespace/genomespace_exporter.xml" />
