@@ -5,6 +5,7 @@
   </section>
   <section id="2manip" name="3. Manipuler les données">
     <tool file="bricks/columns-simple-operation.xml" />
+    <tool file="bricks/row-simple-operation.xml" />
     <tool file="bricks/lubridate.xml" />
     <tool file="bricks/join-data.table.xml" />
     <tool file="bricks/grep.xml" />
