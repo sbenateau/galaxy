@@ -77,6 +77,7 @@ plot_out = plot_out + mappingGroup
 ## Store variables
 
 #set $layerTypeR = $primaryLayerNb.primaryLayer.layerType
+#set $ymaxErr = $primaryLayerNb.primaryLayer.ymaxErr
 ##set $methodR    = $primaryLayerNb.primaryLayer.layerType.method
 layerSizeR = as.numeric('$primaryLayerNb.advanced.size')
 colourR = as.numeric('$primaryLayerNb.advanced.pointcolor')
